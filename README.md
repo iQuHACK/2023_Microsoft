@@ -57,10 +57,10 @@ git checkout <team_name>
 **PLEASE MAKE SURE TO DO THE FOLLOWING BEFORE YOU SUBMIT**
 
 - Your team name, task #, and a point person's slack name (just in case we need to reach out).
-Once you have completed any of the tasks and have added the team name, task # and a point person's slack name, (see [`example.ipynb`](example.ipynb), if you are confused). Please got to File (**File** on the top left of the topbar) and click on the `Share notebook` button.
+Once you have completed any of the tasks and have added the team name, task # and a point person's slack name, if you are confused). Please got to File (**File** on the top left of the topbar) and click on the `Share notebook` button.
 <img width="319" alt="スクリーンショット 2023-01-26 午後4 42 50" src="https://user-images.githubusercontent.com/32727721/214967319-3d2f64ec-19f8-4a06-bf20-0690f8f0e29e.png">
 
-- Enter `rickyyoung@qbraid.com` and share the file. Ricky will periodically run the autograder and the leaderboard will be updated accordingly.
+- Enter `rickyyoung@qbraid.com` and share the file. If it shares successfully, the email should dissapear. Ricky will periodically run the autograder and the leaderboard will be updated accordingly.
 
 - Then submit the remote project submission form that will show up on the iQuHACK website during the last 8 hours of hacking. The form will ask for a link to your repository and your team members (all of whom have to be remote iQuHACK participants to maintain elligibility).
 
