@@ -1,0 +1,29 @@
+%%qsharp
+open Microsoft.Quantum.Canon;
+open Microsoft.Quantum.Diagnostics;
+
+// Task 5. 
+// (input will contain 6 qubits)
+operation Task5(input : Qubit[], target : Qubit) : Unit {
+    mutable TG = 1;
+    for i in [0, 9, 18, 21, 27, 36, 42, 45, 54, 63] {
+        let rem = i % 2;
+        if (rem == 1) {
+            X(target);
+        }
+        elif (rem == 0) {
+            I(target);
+        }
+        if (TG == 1) {
+            T(target);
+            T(target);
+            T(target);
+            T(target);
+            T(target);
+            T(target);
+            T(target);
+            T(target);
+            set TG = 0;
+        }
+    }
+}
