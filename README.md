@@ -1,4 +1,6 @@
-# Welcome to the Microsoft Challenge @ MIT iQuHACK 2023!
+# KYUE @ MIT iQuHACK 2023!
+
+Raunak Singh, Chandra Suda, Kunal Talreja, David Delatorre, Alex Howden
 
 ## Challenge overview
 
