@@ -1,0 +1,17 @@
+%%qsharp
+open Microsoft.Quantum.Canon;
+open Microsoft.Quantum.Diagnostics;
+
+// Task 2. Celebrate MIT iQuHack!
+// (input will contain 5 qubits)
+operation Task2(input : Qubit[], target : Qubit) : Unit is Adj {
+    ControlledOnInt(13, X)(input, target);  // M
+    ControlledOnInt( 9, X)(input, target);  // I
+
+    ControlledOnInt( 9, X)(input, target);  // I
+    ControlledOnInt(17, X)(input, target);  // Q
+    ControlledOnInt(21, X)(input, target);  // U
+    ControlledOnInt( 1, X)(input, target);  // A
+    ControlledOnInt( 3, X)(input, target);  // C
+    ControlledOnInt(11, X)(input, target);  // K
+}

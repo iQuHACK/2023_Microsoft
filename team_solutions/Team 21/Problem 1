@@ -1,0 +1,14 @@
+%%qsharp
+open Microsoft.Quantum.Canon;
+open Microsoft.Quantum.Diagnostics;
+
+// Task 1. Warm up with simple bit manipulation
+// (input will contain 3 qubits)
+operation Task1(input : Qubit[], target : Qubit) : Unit is Adj {
+    let N = Length(input);
+    for i in 0 .. N - 2 {
+        CX(input[i], target);
+        CX(input[i+1], target);
+    }
+    T(target);
+}
