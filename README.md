@@ -1,3 +1,7 @@
+# Queddos Solutions
+
+<hr>
+
 # Welcome to the Microsoft Challenge @ MIT iQuHACK 2023!
 
 ## Challenge overview
