@@ -1,3 +1,12 @@
+# Project Submission for Microsoft Challenge @ MIT iQuHACK 2023 by 
+- Hamish Hall 
+- Vadym Kuzyak 
+- Alexander Doye 
+- Olivia Xuan Zhu 
+- Ivan Rojas  
+
+
+_____________
 # Welcome to the Microsoft Challenge @ MIT iQuHACK 2023!
 
 ## Challenge overview
